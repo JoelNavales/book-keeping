@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJE BOOK KEEPING</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+<nav>
+    <a href="index.html"><img src="./images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">OFFERS</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+    <h1>MJES BOOKKEEPING SERVICES</h1>
+    <p> Bookkeeping is the systematic process of recording, organizing, and maintaining financial transactions and information of a business or organization. 
+        It involves the methodical recording of all financial activities, including sales, purchases, receipts, and payments. </p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+
+<!-- OFFERS -->
+<section class="offers">
+    <h1>Services we Offer</h1>
+    <p> We In MJES offers essential benefits, including systematic financial organization crucial for generating reports and assessing a business's financial health.     </p>
+    
+    <div class="row">
+        <div class="offers-col">
+            <h3>Human Resources</h3>
+            <ul>
+                <li>PayRoll Processing</li>
+                <li>Employee Relations</li>
+                <li>Organizational Development<br>Cinsultancy</br></li>
+            </ul>
+         </div>
+        <div class="offers-col">
+            <h3>Consultancy</h3>
+            <p> The aim is to improve financial processes, ensure accurate and compliant record-keeping, and provide valuable insights for better financial decision-making. </p>
+         </div>
+        <div class="offers-col">
+            <h3>BSP Accredetation</h3>
+            <p> An accreditation related to BSP might pertain to certifications or accreditations offered by or recognized by the BSP regarding certain standards or qualifications in the field of accounting or financial management.</p>
+         </div>
+    </div>
+        <div class="offers-col">
+            <h3>Operational Audit</h3>
+            <p> aim is to assess the efficiency, effectiveness, and overall performance of these operations.</p>
+    </div>
+    <div class="offers-col">
+        <h3>BOOKKEEPING SERVICES</h3>
+        <ul>
+            <li>Business Permit Registation wth SEC/DTI, LGUs and BIR</li>
+            <li>Business Permit Renewal, Amendment and Closure/ Retirement</li>
+            <li>Facilitates Resolution/ Settlement of BIR Open Cases</li>
+            <li>Facilitates the processing of BiR Tax Exemption</li>
+            <li>Facililates the processing of BIR Accreditation </li>
+            <li>Recording of Manual Books & other Statutory Compliances </li>
+        </ul>
+     </div>
+</section>
+
+
+<section class="clients">
+    <h1>Our Clients</h1>
+</section>
+
+
+
+
+<!-- JAVASCRIPT FOR TOGGLE MENU -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+    navLinks.style.right = "0";
+     
+    }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+     
+    }
+</script>
+</body>
+</html>
