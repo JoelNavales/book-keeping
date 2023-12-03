@@ -29,9 +29,8 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>CONTACT US</h1>
     </section>
-
+    <center><h1>CONTACT US</h1></center>
     <!-- CONTACT  US -->
     <section class="location">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125585.15710848429!2d123.76389372604112!3d10.378922809683655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999258dcd2dfd%3A0x4c34030cdbd33507!2sCebu%20City%2C%206000%20Cebu!5e0!3m2!1sen!2sph!4v1699528301759!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -57,31 +56,28 @@
                 <div>
                     <i class="fa fa-envelope-o"></i>
                     <span>
-                        <h5>@gmail.com</h5>
+                        <h5>mjebookkeeping@gmail.com</h5>
                         <p>Email us your query</p>
                     </span>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 offset-md-4 mail-form">
+                    <div class="col-md-4 offset-md- 4 mail-form">
                         <h2 class="text-center">
                             Send Message
                         </h2>
-                        <p class="text-center">
-                            Send mail to anyone from localhost.
-                        </p>
                         <!-- starting php code -->
                         <?php
                         //first we leave this input field blank
-                        $recipient = "navales546@gmail.com";
+                        $recipient = " ";
                         //if user click the send button
                         if (isset($_POST['send'])) {
                             //access user entered data
                             $recipient = $_POST['email'];
                             $subject = $_POST['subject'];
                             $message = $_POST['message'];
-                            $sender = "From: joelfranco.navales.23@usjr.edu.ph";
+                            $sender = "From: ";
                             //if user leave empty field among one of them
                             if (empty($recipient) || empty($subject) || empty($message)) {
                         ?>
@@ -113,10 +109,10 @@
                         ?> <!-- end of php code -->
                         <form action="contact.php" method="POST">
                             <div class="form-group">
-                                <input class="form-control" name="email" type="email" placeholder="Recipients" value="<?php echo $recipient ?>">
+                                <input class="form-control" name="email" type="email" placeholder="Enter Email" value="<?php echo $recipient ?>">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" name="subject" type="text" placeholder="Subject">
+                                <input class="form-control" name="subject" type="text" placeholder="Enter Name">
                             </div>
                             <div class="form-group">
                                 <!-- change this tag name into textarea to show textarea field. Due to more textarea I got an error, so I change the name of this field -->

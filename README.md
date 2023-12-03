@@ -8,4 +8,4 @@
 #instruction
 
 -download all the content in this repository.
--simply open the index.html file and open it as "Chrome" or "Microsoft Edge" depending on what default browser is set to your computer.
+-simply open the index.html file and open it as "Chrome" or "Microsoft Edge" depending on the default browser is set to your computer.

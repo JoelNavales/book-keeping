@@ -550,6 +550,7 @@ h3{
     height: 43px;
     font-size: 15px;
     margin-top: 5px;
+    width: 250px;
 }
 
 .container .mail-form form .form-group .button {
@@ -569,4 +570,17 @@ h3{
 
 .container .mail-form p {
     font-size: 14px;
+}
+
+.button{
+    border-radius: 2px;
+    border: none;
+    width: 100px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #ea6666;
 }
